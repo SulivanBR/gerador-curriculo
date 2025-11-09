@@ -62,35 +62,7 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="assets/js/script.js"></script>
 
-<footer class="text-center py-4 bg-light mt-5 border-top">
-  <h5 class="mb-3">🌐 Principais Sites de Emprego</h5>
-  <p class="mb-4 text-muted">Acesse as plataformas abaixo para buscar novas oportunidades:</p>
-  
-  <div class="d-flex justify-content-center flex-wrap gap-3">
-    <a href="https://www.linkedin.com/jobs" target="_blank" class="btn btn-outline-primary">
-      🔗 LinkedIn
-    </a>
-    <a href="https://www.infojobs.com.br" target="_blank" class="btn btn-outline-secondary">
-      💼 InfoJobs
-    </a>
-    <a href="https://www.catho.com.br" target="_blank" class="btn btn-outline-success">
-      📄 Catho
-    </a>
-    <a href="https://www.vagas.com.br" target="_blank" class="btn btn-outline-warning">
-      🧭 Vagas.com
-    </a>
-    <a href="https://www.indeed.com.br" target="_blank" class="btn btn-outline-danger">
-      🌎 Indeed
-    </a>
-    <a href="https://www.empregos.com.br" target="_blank" class="btn btn-outline-info">
-      🧰 Empregos.com.br
-    </a>
-  </div>
-
-  <p class="mt-4 text-muted small">
-    © 2025 - Gerador de Currículos em PHP | Desenvolvido para fins acadêmicos
-  </p>
-</footer>
+<iframe src="rodape.html" style="width:100%; height:250px; border:none;" scrolling="no"></iframe>
 
 
 </body>
