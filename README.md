@@ -16,11 +16,6 @@ Desenvolvido com **PHP**, **Bootstrap**, **jQuery** e **Dompdf**.
 
 ## Como executar
 1. Instale o **XAMPP** e inicie o **Apache**.
-2. Copie a pasta do projeto para:  
-   `C:\xampp\htdocs\gerador-curriculo`
-3. No terminal, entre na pasta e instale o Dompdf:
-## Como executar
-1. Instale o **XAMPP** e inicie o **Apache**.
 2. Instale o Composer.
 3. Copie a pasta do projeto para:  
    `C:\xampp\htdocs\gerador-curriculo`
