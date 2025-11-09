@@ -1,3 +1,68 @@
 body {
-  background-color: #f8f9fa;
+  background: #f4f6f9;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #4e73df !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.container {
+  background: #c0d0e2;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+
+input, textarea {
+  border-radius: 8px !important;
+}
+
+.btn-success {
+  background-color: #1cc88a;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-success:hover {
+  background-color: #17a673;
+}
+
+.btn-outline-primary {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.experiencia {
+  background: #f8f9fc;
+  border-left: 4px solid #4e73df;
+  transition: 0.3s;
+}
+
+.experiencia:hover {
+  background: #eef1fb;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  margin-top: 20px;
+  font-size: 0.9rem;
 }

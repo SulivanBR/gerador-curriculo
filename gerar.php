@@ -7,6 +7,15 @@ function limpar($txt){ return htmlspecialchars($txt ?? '', ENT_QUOTES, 'UTF-8');
 
 $nome = $_POST['nome'] ?? '';
 $nascimento = $_POST['nascimento'] ?? '';
+$nascimento_original = $_POST['nascimento'] ?? '';
+
+if (!empty($nascimento_original)) {
+    // Converte de "aaaa-mm-dd" para "dd/mm/aaaa"
+    $nascimento = date("d/m/Y", strtotime($nascimento_original));
+} else {
+    $nascimento = '';
+}
+
 $idade = $_POST['idade'] ?? '';
 $email = $_POST['email'] ?? '';
 $telefone = $_POST['telefone'] ?? '';
